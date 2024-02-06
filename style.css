@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+html,body{
+  font-size: 62,5;
+  font-family: 'Courier New', Courier, monospace;
+  text-rendering: optimizeLegibility;
+  height: 100%;
+  width: 100%;
+  
+}
+
+  div{
+    height: 10rem;
+    width: 20rem;
+    background-color: rgb(16, 16, 16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  button{
+    font-size: 2rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(49, 49, 49);
+    color: aliceblue;
+  }
+
+  button:hover {
+    background-color: rgb(103, 103, 103);
+    color: white;
+  }
+
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 25rem;
+    margin-top: 4rem;
+   
+  }
+
+input{
+  border-radius: 0.5rem;
+  height: 5rem;
+  width: 17rem;
+  border: none;
+  font-size: 2rem;
+  padding: 1rem;
+  
+
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+  
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin: 1rem;
+ 
+}
+
+section{
+  display: flex;
+  
+}
+
+article{
+
+  margin: 1rem;
+  height: 25rem;
+    width: 20rem;
+   
+   overflow-y: scroll;
+}
+footer{
+  background-color: rgb(25, 25, 25);
+}
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+}

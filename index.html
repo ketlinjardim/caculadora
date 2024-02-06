@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora com API</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <section>
+<footer>
+  <div>
+    <input type="text" id="visor" readonly>
+  </div>
+
+  <main>
+    <button onclick="numero('9')">9</button>
+    <button onclick="numero('8')">8</button>
+    <button onclick="numero('7')">7</button>
+    <button onclick="numero('/')">/</button>
+  </main>
+
+  <main>
+    <button onclick="numero('6')">6</button>
+    <button onclick="numero('5')">5</button>
+    <button onclick="numero('4')">4</button>
+    <button onclick="numero('*')">*</button>
+  </main>
+
+  <main>
+    <button onclick="numero('3')">3</button>
+    <button onclick="numero('2')">2</button>
+    <button onclick="numero('1')">1</button>
+    <button onclick="numero('+')">+</button>
+  </main>
+
+  <main>
+    <button onclick="limpar()">C</button>
+    <button onclick="numero('0')">0</button>
+    <button onclick="resultado()">=</button>
+    <button onclick="numero('-')">-</button>
+  </main>
+</footer>
+
+<nav>
+<h2>Histórico</h2>
+<article>
+ 
+    
+    <ul id="historico"></ul>
+</article>
+</nav>
+</section> 
+ <script src="script.js"></script>
+ 
+</body>
+</html>
